@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+main .container {
+  width: 100vw;
+}
+main .container .main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container .main .text {
+  width: 900px;
+  height: 600px;
+}
+main .container .main .text h2 {
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.5rem;
+}
+main .container .main .text .happy {
+  padding-top: 2rem;
+}
+main .container .main .text p {
+  font-size: 30px;
+  padding-left: 0.5rem;
+  padding-top: 2rem;
+  color: #8b8b8b;
+}
+main .container .main .text .sign {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .container .main .text .sign a {
+  padding: 25px 30px;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  border: dashed 1px;
+  background-color: #03faee;
+}
+main .container .main .img {
+  width: 700px;
+  height: 600px;
+}
+main .container .main .img img {
+  width: 100%;
+  height: 100%;
+}
+main .container .cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+  padding-top: 3rem;
+}
+main .container .cards .card-card {
+  width: 400px;
+  height: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(139, 139, 139, 0.1176470588);
+}
+main .container .cards .card-card .num {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 3rem;
+  filter: drop-shadow(-5px 0px 2px #92f7f2);
+}
+main .container .cards .card-card .card-text {
+  padding-top: 1rem;
+}
+main .container .cards .card-card .card-text p {
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+footer .copy {
+  display: flex;
+}
+footer .redes {
+  display: flex;
+  gap: 3rem;
+}
+footer .redes .redes-red {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 3rem;
+  filter: drop-shadow(-5px 0px 2px #92f7f2);
+}
+footer .redes .redes-red i {
+  font-size: 20px;
+}/*# sourceMappingURL=styles.css.map */
